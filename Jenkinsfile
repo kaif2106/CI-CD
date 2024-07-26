@@ -23,7 +23,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                sh 'pm2 restart your-app-name'
+                sh 'pm2 restart demo'
             }
         }
     }
